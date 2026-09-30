@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Montiel | Portafolio Profesional</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-bracket">&lt;</span>GabrielMontiel <span class="logo-slash">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-graduation-cap"></i> Lic. en Informática & Aprendiz ADSO SENA
+                </div>
+                <h1 class="hero-title">Hola, soy <span class="highlight">Gabriel Montiel</span></h1>
+                <h2 class="hero-subtitle">Desarrollador de Software & Apasionado por la Tecnología</h2>
+                <p class="hero-description">
+                    Combino sólidos fundamentos pedagógicos y teóricos en informática con el desarrollo práctico de software Full-Stack, arquitectura de APIs RESTful y gestión de datos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary"><i class="fa-solid fa-code"></i> Ver Proyectos</a>
+                    <a href="https://github.com/Gabmon24" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/gabriel-montiel-5239801a9" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="window-title">profile.json</span>
+                    </div>
+                    <pre class="code-body"><code>{
+  <span class="key">"nombre"</span>: <span class="string">"Gabriel Montiel"</span>,
+  <span class="key">"usuario"</span>: <span class="string">"Gabmon24"</span>,
+  <span class="key">"titulos"</span>: [
+    <span class="string">"Licenciado en Informática"</span>,
+    <span class="string">"Tecnólogo ADSO (SENA)"</span>
+  ],
+  <span class="key">"enfoque"</span>: <span class="string">"Full-Stack & APIs RESTful"</span>,
+  <span class="key">"ubicacion"</span>: <span class="string">"Colombia 🇨🇴"</span>,
+  <span class="key">"disponible"</span>: <span class="boolean">true</span>
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="section sobre-mi">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-user-gear"></i> Sobre Mí</h2>
+            <div class="sobre-grid">
+                <div class="sobre-card">
+                    <div class="card-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                    <h3>Fundamentación Pedagógica & Informática</h3>
+                    <p>Como Licenciado en Informática, cuento con capacidad analítica, metodología estructurada y entendimiento claro de los procesos de aprendizaje y resolución sistemática de problemas.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Desarrollo Práctico ADSO (SENA)</h3>
+                    <p>En el programa de Análisis y Desarrollo de Software fortalezco habilidades prácticas en Clean Architecture, APIs REST, bases de datos relacionales y no relacionales y metodologías ágiles.</p>
+                </div>
+                <div class="sobre-card">
+                    <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3>Calidad y Buenas Prácticas</h3>
+                    <p>Enfocado en código limpio, pruebas automatizadas, control de versiones con Git y documentación profesional en cada uno de mis proyectos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section habilidades">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-desktop"></i> Frontend</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-brands fa-react"></i> React.js</span>
+                        <span class="tag"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+                        <span class="tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                        <span class="tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-server"></i> Backend & APIs</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag"><i class="fa-brands fa-java"></i> Java</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag"><i class="fa-brands fa-php"></i> PHP</span>
+                    </div>
+                </div>
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-database"></i> Bases de Datos</h3>
+                    <div class="tags">
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">SQL Relacional</span>
+                    </div>
+                </div>
+                <!-- DevOps & Tools -->
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Herramientas & Métodos</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+                        <span class="tag"><i class="fa-brands fa-docker"></i> Docker</span>
+                        <span class="tag">Swagger / OpenAPI</span>
+                        <span class="tag">Postman</span>
+                        <span class="tag">Scrum</span>
+                        <span class="tag">Diagramas UML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section proyectos">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Proyectos Destacados</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/Gabmon24/smart-file-organizer" target="_blank" rel="noopener noreferrer" title="Ver Repositorio"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Smart File Organizer CLI</h3>
+                    <p class="project-description">
+                        Herramienta de automatización en Python para organización inteligente de archivos por categorías con modo simulación (--dry-run), logs de auditoría y pruebas unitarias.
+                    </p>
+                    <div class="project-techs">
+                        <span>Python</span>
+                        <span>CLI</span>
+                        <span>Unittest</span>
+                        <span>Automation</span>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-folder-open folder-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/Gabmon24/task-manager-api" target="_blank" rel="noopener noreferrer" title="Ver Repositorio"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Task Manager API RESTful</h3>
+                    <p class="project-description">
+                        API RESTful modular desarrollada en Node.js y Express con Clean Architecture (capas de controladores, servicios y repositorios), Swagger UI y pruebas de integración con Jest.
+                    </p>
+                    <div class="project-techs">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>Swagger</span>
+                        <span>Jest</span>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <i class="fa-solid fa-hospital-user folder-icon"></i>
+                        <span class="badge-status">En Desarrollo (ADSO)</span>
+                    </div>
+                    <h3 class="project-title">Sistema de Gestión de Citas Médicas</h3>
+                    <p class="project-description">
+                        Proyecto formativo insigne para el SENA (ADSO). Sistema Full-Stack para agendamiento de citas, gestión de roles de usuarios, historial clínico y módulos administrativos.
+                    </p>
+                    <div class="project-techs">
+                        <span>Full-Stack</span>
+                        <span>Arquitectura Limpia</span>
+                        <span>PostgreSQL</span>
+                        <span>SENA ADSO</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section contacto">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-paper-plane"></i> Contacto</h2>
+            <div class="contact-box">
+                <p class="contact-lead">
+                    ¿Interesado en colaborar, conectar o revisar mis proyectos de software? ¡Hablemos!
+                </p>
+                <div class="contact-cards">
+                    <a href="https://www.linkedin.com/in/gabriel-montiel-5239801a9" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <small>Gabriel Montiel</small>
+                    </a>
+                    <a href="https://github.com/Gabmon24" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                        <small>@Gabmon24</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Gabriel Montiel. Desarrollado con HTML5, CSS3 y JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
